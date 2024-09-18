@@ -1,10 +1,13 @@
 import numpy as np
 
-x = np.ones((8, 8))
+array = np.ones((8, 8))
 print('Before:')
-print(x)
+print(array)
 
 # Your code goes here
+for x in range(1, 7):
+    for y in range(1, 7):
+        array[x, y] = 0
 
 print('After:') 
-print(x)
+print(array)
