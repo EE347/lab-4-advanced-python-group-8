@@ -10,6 +10,7 @@ with open ('task5.csv', 'r', newline = '') as csvfile:
     reader = csv.reader(csvfile)
     for row in reader:
         print(', '.join(row))
+        print("add sonmething ")
     
            
     
